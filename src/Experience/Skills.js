@@ -32,7 +32,7 @@ const data2 = [
 
 function Skills() {
   return (
-    <Box className="Background1" sx={{ flexGrow: 1, pt: 5 }}>
+    <Box className="Background1" sx={{ flexGrow: 1, pb: 5 }}>
       <Grid
         container
         spacing={2}

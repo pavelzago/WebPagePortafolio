@@ -9,7 +9,7 @@ import Grid from "@mui/material/Grid";
 
 function AboutMe() {
   return (
-    <Box className="Background1" sx={{ flexGrow: 1 }}>
+    <Box className="Background1" sx={{ flexGrow: 1, pb:6 }}>
       <Grid
         container
         spacing={2}
