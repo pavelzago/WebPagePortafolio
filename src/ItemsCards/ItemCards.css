@@ -1,0 +1,21 @@
+.ImagenPrincipal{
+    height: 450px;
+}
+
+.ResponsiveIma{     
+width: 100%;
+height: auto;
+}
+
+.Background1{
+    background: rgb(21,46,63);
+    background: radial-gradient(circle, rgba(21,46,63,1) 35%, rgba(9,32,47,1) 100%);
+    /* background-image: url(../Images/BackGroundItemCards.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; */
+}
+
+.SizeMobile{
+    font-size: 0.5rem;
+}

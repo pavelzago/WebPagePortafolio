@@ -1,0 +1,15 @@
+.ColorText{
+    color: #FFD54F;
+}
+
+.Divider{
+border-top: 3px solid #FFD54F;
+margin-top: 80px;
+padding-right: 5px;
+}
+
+.DividerResponsive{
+    border-top: 3px solid #FFD54F;
+    margin-top: 10px;
+    padding-right: 5px;
+    }

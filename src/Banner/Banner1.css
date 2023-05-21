@@ -1,0 +1,19 @@
+.ImagenPrincipal{
+    height: 450px;
+}
+
+.ResponsiveIma{     
+width: 100%;
+height: auto;
+}
+
+.Background{
+    background-image: url(../Images/BackGroundBanner1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.SizeMobile{
+    font-size: 0.5rem;
+}
