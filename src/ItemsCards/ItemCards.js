@@ -2,9 +2,7 @@ import { React } from "react";
 import "./ItemCards.css";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
-import WorkIcon from "@mui/icons-material/Work";
-import GTranslateIcon from "@mui/icons-material/GTranslate";
+
 
 import Time from "../Images/Time.png";
 import Projects from "../Images/Projects.png";

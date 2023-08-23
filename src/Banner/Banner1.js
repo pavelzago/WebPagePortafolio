@@ -7,6 +7,14 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 
 function BannerPrincipal() {
+  const handleDownload = () => {
+    const pdfUrl = 'https://drive.google.com/file/d/1P96ricGbHbs4Qad1zjD-P_KznBeSVSMz/view?usp=drive_link';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.target = '_blank';
+    link.download = 'HVPavelZambrano.pdf';
+    link.click();
+  };
   return (
     <Box className="Background" sx={{ flexGrow: 1, pt: 5 }}>
       <Grid container 
@@ -20,8 +28,8 @@ function BannerPrincipal() {
             <h1> I'm, Pavel Zambrano Gómez</h1>
             <h2> Front End Developer</h2>
             <Stack spacing={2} direction="row">
-              <Button variant="contained">Descargar HV</Button>
-              <Button variant="outlined">Proyectos</Button>
+              <Button variant="contained" onClick={handleDownload}>Download HV</Button>
+              <Button variant="outlined" href="https://github.com/pavelzago" target="_blank">Projects</Button>
             </Stack>
           </Box>
         </Grid>
@@ -41,8 +49,8 @@ function BannerPrincipal() {
             <h1> I'm, Pavel Zambrano Gómez</h1>
             <h2> Front End Developer</h2>
             <Stack spacing={2} direction="row">
-              <Button sx={{fontSize: 11 }} variant="contained">Descargar HV</Button>
-              <Button sx={{fontSize: 11 }} variant="outlined">Proyectos</Button>
+              <Button sx={{fontSize: 11 }} variant="contained" onClick={handleDownload}>Download HV</Button>
+              <Button sx={{fontSize: 11 }} variant="outlined" href="https://github.com/pavelzago" target="_blank">Projects</Button>
             </Stack>
           </Box>
         </Grid>
