@@ -29,6 +29,7 @@ function ContactInfo() {
               className="OffDecotaror"
               href="https://wa.me/+573167502508"
               target="_blank"
+              rel="noreferrer"
             >
               WhatsApp
             </a>
@@ -44,6 +45,7 @@ function ContactInfo() {
               className="OffDecotaror"
               href="https://www.linkedin.com/in/pavel-zambrano-gomez/"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn
             </a>
@@ -59,6 +61,7 @@ function ContactInfo() {
               className="OffDecotaror"
               href="https://github.com/pavelzago"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
