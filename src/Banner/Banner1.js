@@ -8,7 +8,7 @@ import Grid from "@mui/material/Grid";
 
 function BannerPrincipal() {
   const handleDownload = () => {
-    const pdfUrl = 'https://drive.google.com/file/d/1P96ricGbHbs4Qad1zjD-P_KznBeSVSMz/view?usp=drive_link';
+    const pdfUrl = 'https://drive.google.com/file/d/178br2uh9h-n_WeQ9qJ3EdwBujnN1ky_s/view?usp=drive_link';
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.target = '_blank';
@@ -30,6 +30,7 @@ function BannerPrincipal() {
             <Stack spacing={2} direction="row">
               <Button variant="contained" onClick={handleDownload}>Download HV</Button>
               <Button variant="outlined" href="https://github.com/pavelzago" target="_blank">Projects</Button>
+              <Button variant="outlined" href="https://drive.google.com/drive/folders/1tMwZZSiw6Yu6eHs87MzUOGwLaoT1i-9s?usp=drive_link" target="_blank">Certificates</Button>
             </Stack>
           </Box>
         </Grid>
@@ -51,6 +52,7 @@ function BannerPrincipal() {
             <Stack spacing={2} direction="row">
               <Button sx={{fontSize: 11 }} variant="contained" onClick={handleDownload}>Download HV</Button>
               <Button sx={{fontSize: 11 }} variant="outlined" href="https://github.com/pavelzago" target="_blank">Projects</Button>
+              <Button sx={{fontSize: 10, pl:2 }} variant="outlined" href="https://drive.google.com/drive/folders/1tMwZZSiw6Yu6eHs87MzUOGwLaoT1i-9s?usp=drive_link" target="_blank">Certificates</Button>
             </Stack>
           </Box>
         </Grid>

@@ -9,7 +9,7 @@ import CardWicon from "./CardWicon";
 const data = [
   { icon: <CheckCircleIcon />, label: 'Critical Thinking', id:0 },
   { icon: <CheckCircleIcon />, label: 'Communication Skills', id:1 },
-  { icon: <CheckCircleIcon />, label: 'Liderazgo', id:2 },
+  { icon: <CheckCircleIcon />, label: 'Listening Skills', id:2 },
   { icon: <CheckCircleIcon />, label: 'Leadership', id:3 },
   { icon: <CheckCircleIcon />, label: 'Empathy', id:4 },
   { icon: <CheckCircleIcon />, label: 'Team Work', id:5 },
