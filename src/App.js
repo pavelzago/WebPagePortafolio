@@ -8,7 +8,7 @@ import Skills from "./Experience/Skills";
 // import Proyectos from "./Proyectos/Proyectos";
 import Contactame from "./Contactame/Contactame";
 import ItemCards from "./ItemsCards/ItemCards";
-
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
@@ -19,27 +19,32 @@ function App() {
         color: "text.primary",
       }}
     >
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Pavel Zambrano G</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="Portfolio Pavelzago" />
+      </Helmet>
       <div>
         <ResponsiveAppBar />
         <div>
           <BannerPrincipal />
         </div>
         <div>
-          <ItemCards/>
+          <ItemCards />
         </div>
         <div>
-          <AboutMe/>
+          <AboutMe />
         </div>
         <div>
-          <Skills/>
+          <Skills />
         </div>
         {/* <div>
           <Proyectos/>
         </div> */}
         <div>
-          <Contactame/>
+          <Contactame />
         </div>
-
       </div>
     </Box>
   );

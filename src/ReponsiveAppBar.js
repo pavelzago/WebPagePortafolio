@@ -29,7 +29,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            Pavel Zambrano
+            Pavelzago's Portfolio
           </Typography>
           <IconButton sx={{ ml: 1, display: { xs: "none", md: "flex" }, }} onClick={toggleMode} color="inherit">
             {mode === "dark" ? <LightModeIcon /> : <DarkModeIcon />}
@@ -50,7 +50,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            Pavel Zambrano
+            Pavelzago's Portfolio
           </Typography>
           <IconButton sx={{ ml: 1,  display: { xs: "flex", md: "none" } }} onClick={toggleMode} color="inherit">
             {mode === "dark" ? <LightModeIcon /> : <DarkModeIcon />}
