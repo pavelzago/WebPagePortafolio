@@ -8,8 +8,7 @@ import Skills from "./Experience/Skills";
 // import Proyectos from "./Proyectos/Proyectos";
 import Contactame from "./Contactame/Contactame";
 import ItemCards from "./ItemsCards/ItemCards";
-// import {Helmet} from "react-helmet";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 
 function App() {
   return (
@@ -20,14 +19,6 @@ function App() {
         color: "text.primary",
       }}
     >
-      <HelmetProvider>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Pavel Zambrano G</title>
-        <link rel="canonical" href="https://web-page-portafolio-pavelzago.vercel.app/" />
-        <meta name="description" content="Portfolio Pavelzago" />
-      </Helmet>
-      </HelmetProvider>
       <div>
         <ResponsiveAppBar />
         <div>
