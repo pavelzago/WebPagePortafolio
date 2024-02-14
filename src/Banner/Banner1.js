@@ -8,7 +8,7 @@ import Grid from "@mui/material/Grid";
 
 function BannerPrincipal() {
   const handleDownload = () => {
-    const pdfUrl = 'https://drive.google.com/file/d/178br2uh9h-n_WeQ9qJ3EdwBujnN1ky_s/view?usp=drive_link';
+    const pdfUrl = 'https://drive.google.com/file/d/1WMSU2dBWi5NPGFVlZmcOwsYLaytSFH8g/view?usp=sharing';
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.target = '_blank';
