@@ -8,7 +8,16 @@ import Grid from "@mui/material/Grid";
 
 function BannerPrincipal() {
   const handleDownload = () => {
-    const pdfUrl = 'https://drive.google.com/file/d/1WMSU2dBWi5NPGFVlZmcOwsYLaytSFH8g/view?usp=sharing';
+    const pdfUrl = 'https://drive.google.com/file/d/1W0JCd_6Cf2mjn3na-XwFYWHH8qpbRTmg/view?usp=sharing';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.target = '_blank';
+    link.download = 'HVPavelZambrano.pdf';
+    link.click();
+  };
+
+  const handleDownloadEnglish = () => {
+    const pdfUrl = 'https://drive.google.com/file/d/1CgUegVfgoYj9ZJi8URPo-MiOz16UloSN/view?usp=sharing';
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.target = '_blank';
@@ -28,7 +37,8 @@ function BannerPrincipal() {
             <h1> I'm, Pavel Zambrano Gómez</h1>
             <h2> Front End Developer</h2>
             <Stack spacing={2} direction="row">
-              <Button variant="contained" onClick={handleDownload}>Download HV</Button>
+              <Button variant="contained" onClick={handleDownload}>Download HV Español</Button>
+              <Button variant="contained" onClick={handleDownloadEnglish}>Download HV English</Button>
               <Button variant="outlined" href="https://github.com/pavelzago" target="_blank">Projects</Button>
               <Button variant="outlined" href="https://drive.google.com/drive/folders/1tMwZZSiw6Yu6eHs87MzUOGwLaoT1i-9s?usp=drive_link" target="_blank">Certificates</Button>
             </Stack>
